@@ -17,15 +17,14 @@ $(document).ready(function() {
     console.log(window.localStorage, window.localStorage.getItem("8am-row"));
     $("#8am-text").val(localStorage.getItem('8am-row'));
     $("#9am-text").val(localStorage.getItem('9am-row'));
-    $("9am-row").val(localStorage.getItem("9am-row"));
-    $("10am-row").val(localStorage.getItem("10am-row"));
-    $("11am-row").val(localStorage.getItem("11am-row"));
-    $("12pm-row ").val(localStorage.getItem("12pm-row"));
-    $("1pm-row").val(localStorage.getItem("1pm-row"));
-    $("2pm-row").val(localStorage.getItem("2pm-row"));
-    $("3pm-row").val(localStorage.getItem("3pm-row"));
-    $("4pm-row").val(localStorage.getItem("4pm-row"));
-    $("5pm-row").val(localStorage.getItem("5pm-row"));
+    $("#10am-text").val(localStorage.getItem("10am-row"));
+    $("#11am-text").val(localStorage.getItem("11am-row"));
+    $("#12pm-text").val(localStorage.getItem("12pm-row"));
+    $("#1pm-text").val(localStorage.getItem("1pm-row"));
+    $("#2pm-text").val(localStorage.getItem("2pm-row"));
+    $("#3pm-text").val(localStorage.getItem("3pm-row"));
+    $("#4pm-text").val(localStorage.getItem("4pm-row"));
+    $("#5pm-text").val(localStorage.getItem("5pm-row"));
 
     let hour8 = 8;
     let hour9 = 9;
@@ -41,7 +40,7 @@ $(document).ready(function() {
     let currentHour = moment().format('H');
 
 
-    if (currentHour < hour9) {
+    if (currentHour < hour8) {
         $("#8am-text").addClass("future");
     } else if (currentHour > hour9) {
         $("#8am-text").addClass("past");
