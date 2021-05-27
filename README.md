@@ -32,3 +32,7 @@ THEN the saved events persist
 * Jquery API
 * Bootstrap API 
 * Vanilla Javascript
+
+// Click link to Launch Work Day Scheduler
+
+https://eulagee.github.io/WorkDay_Scheduler_EG/
