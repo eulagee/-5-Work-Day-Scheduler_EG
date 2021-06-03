@@ -33,3 +33,6 @@ THEN the saved events persist
 * Bootstrap API 
 * Vanilla Javascript
 
+### Click link to launch project >>>
+
+https://eulagee.github.io/WorkDay_Scheduler_EG/
